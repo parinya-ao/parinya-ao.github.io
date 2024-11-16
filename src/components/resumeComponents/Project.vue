@@ -23,7 +23,7 @@ export default {
     }
   },
   mounted() {
-    fetch('/public/Project.json')
+    fetch('/Project.json')
       .then((res) => res.json())
       .then((data) => {
         this.ProjectALL = data

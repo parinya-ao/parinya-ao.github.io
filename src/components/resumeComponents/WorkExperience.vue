@@ -24,7 +24,7 @@ export default {
     }
   },
   mounted() {
-    fetch('/public/WorkExperiances.json')
+    fetch('/WorkExperiances.json')
       .then((res) => res.json())
       .then((data) => {
         this.jobs = data
