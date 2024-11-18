@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div class="left">
-      <a :href="emailLink">{{ Email }}</a>
+      <a :href="emailLink" target="_blank">{{ Email }}</a>
       <p id="location">{{ Location }}</p>
     </div>
     <div class="center">
@@ -31,7 +31,7 @@ export default {
   computed: {
     // สร้างลิงก์ mailto:
     emailLink() {
-      return `mailto:${this.Email}`
+      return `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(this.Email)}`
     },
     LinkinLink() {
       const linkinLINKURL = 'parinya-aobaun'

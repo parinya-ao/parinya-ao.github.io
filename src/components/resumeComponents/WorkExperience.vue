@@ -4,7 +4,7 @@
       <h2>WORK EXPERIENCE</h2>
       <hr />
       <div v-for="(job, i) in jobs" :key="i" class="exp">
-        <h3>{{ job.title }}</h3>
+        <h3>{{ job.ROLE }}</h3>
         <p>{{ job.company }}, {{ job.period }}</p>
         <ul>
           <li v-for="(detail, j) in job.details" :key="j">

@@ -35,7 +35,7 @@ function __VLS_template() {
     for (const [job, i] of __VLS_getVForSourceType((__VLS_ctx.jobs))) {
         __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ key: ((i)), ...{ class: ("exp") }, });
         __VLS_elementAsFunction(__VLS_intrinsicElements.h3, __VLS_intrinsicElements.h3)({});
-        (job.title);
+        (job.ROLE);
         __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({});
         (job.company);
         (job.period);

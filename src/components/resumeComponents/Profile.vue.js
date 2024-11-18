@@ -10,7 +10,7 @@ export default (await import('vue')).defineComponent({
     computed: {
         // สร้างลิงก์ mailto:
         emailLink() {
-            return `mailto:${this.Email}`;
+            return `https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(this.Email)}`;
         },
         LinkinLink() {
             const linkinLINKURL = 'parinya-aobaun';
@@ -40,7 +40,7 @@ function __VLS_template() {
     let __VLS_resolvedLocalAndGlobalComponents;
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("container") }, });
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("left") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ href: ((__VLS_ctx.emailLink)), });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ href: ((__VLS_ctx.emailLink)), target: ("_blank"), });
     (__VLS_ctx.Email);
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ id: ("location"), });
     (__VLS_ctx.Location);

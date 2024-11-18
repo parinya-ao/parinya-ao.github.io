@@ -1,8 +1,12 @@
 [
   {
-    "title": "Full stack developer",
+    "ROLE": "Full stack developer",
     "company": "10bitdevelopment (short internships)",
     "period": "NOV 2024",
-    "details": ["intershipsing"]
+    "details": [
+      "I learn about html css typescript reactNative",
+      "Improve my Collaboration teamwork skill",
+      "Understand how organizations work"
+    ]
   }
 ]

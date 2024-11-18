@@ -19,8 +19,8 @@
         </li>
         <li>
           <strong>Tool : </strong>
-          <span v-for="(tool, index) in ToolList" :key="index">
-            {{ tool }} <span v-if="index < ToolList.length - 1"></span>
+          <span v-for="(tool, index) in ToolList" :key="index"
+            >{{ tool }}<span v-if="index < ToolList.length - 1">, </span>
           </span>
         </li>
         <!-- Other topic ตอนนี้ยังไม่มี -->
@@ -38,7 +38,7 @@ export default {
     return {
       ProgramingLangauge: ['Python', 'C', 'C++', 'Javascript', 'Typescript'],
       FramworksList: ['Vuejs', 'React Native'],
-      ToolList: ['git'],
+      ToolList: ['git', 'vim'],
     }
   },
 }

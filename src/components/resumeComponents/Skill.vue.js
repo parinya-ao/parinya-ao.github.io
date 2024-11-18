@@ -3,7 +3,7 @@ export default (await import('vue')).defineComponent({
         return {
             ProgramingLangauge: ['Python', 'C', 'C++', 'Javascript', 'Typescript'],
             FramworksList: ['Vuejs', 'React Native'],
-            ToolList: ['git'],
+            ToolList: ['git', 'vim'],
         };
     },
 }); /* PartiallyEnd: #3632/script.vue */
