@@ -38,7 +38,7 @@ export default {
     return {
       ProgramingLangauge: ['Python', 'C', 'C++', 'Javascript', 'Typescript'],
       FramworksList: ['Vuejs', 'React Native'],
-      ToolList: ['git', 'vim'],
+      ToolList: ['git', 'vim', 'figma'],
     }
   },
 }

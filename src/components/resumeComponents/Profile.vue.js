@@ -50,8 +50,8 @@ function __VLS_template() {
     __VLS_elementAsFunction(__VLS_intrinsicElements.p, __VLS_intrinsicElements.p)({ ...{ style: ({}) }, });
     (__VLS_ctx.NickName);
     __VLS_elementAsFunction(__VLS_intrinsicElements.div, __VLS_intrinsicElements.div)({ ...{ class: ("righ") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ href: ((__VLS_ctx.LinkinLink)), ...{ class: ("social-link") }, });
-    __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ href: ((__VLS_ctx.GithubLink)), ...{ class: ("social-link") }, });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ href: ((__VLS_ctx.LinkinLink)), target: ("_blank"), ...{ class: ("social-link") }, });
+    __VLS_elementAsFunction(__VLS_intrinsicElements.a, __VLS_intrinsicElements.a)({ href: ((__VLS_ctx.GithubLink)), target: ("_blank"), ...{ class: ("social-link") }, });
     __VLS_styleScopedClasses['container'];
     __VLS_styleScopedClasses['left'];
     __VLS_styleScopedClasses['center'];

@@ -11,9 +11,9 @@
     <div class="righ">
       <!-- github and linkedin zone -->
       <!-- linkedin link -->
-      <a :href="LinkinLink" class="social-link">Linkedin</a>
+      <a :href="LinkinLink" target="_blank" class="social-link">Linkedin</a>
       <!-- gtihub link -->
-      <a :href="GithubLink" class="social-link">Github</a>
+      <a :href="GithubLink" target="_blank" class="social-link">Github</a>
     </div>
   </div>
 </template>
