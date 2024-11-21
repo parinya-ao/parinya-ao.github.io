@@ -51,7 +51,9 @@ export default {
   justify-content: space-between;
   align-items: center;
   /* padding: 20px; */
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 16px;
 }
 
 .left,

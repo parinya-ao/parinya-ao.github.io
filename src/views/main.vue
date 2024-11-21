@@ -32,4 +32,15 @@ export default {
   margin: 36px;
   padding: 36px;
 }
+@media (max-width: 768px) {
+  .box {
+    margin: 16px;
+    padding: 16px;
+  }
+
+  .Resume {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 </style>
